@@ -1,0 +1,51 @@
+
+/* General Styles */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	font-weight: 500;
+	color: #25282B;
+}
+
+a {
+	color: #25282B;
+	text-decoration: none;
+}
+
+/* END General Styles */
+
+/* Hint Styles */
+
+.hint {
+	text-align: center;
+	background: #697B03;
+	padding:  17px 0;
+}
+
+.hint p {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.1px;
+	font-weight: 400;
+	color: #F9F9FA;
+}
+
+.hint__link {
+	color: #F9F9FA;
+	transition: all .3s linear;
+}
+
+.hint__link:hover {
+	color: #CBDD7A;;
+}
+
+/* END Hint Styles */
