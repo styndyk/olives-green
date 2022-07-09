@@ -161,6 +161,10 @@ ul {
 
 /* About Styles */
 
+.about {
+	margin-bottom: 100px;
+}
+
 .about__items {
 	display: flex;
 }
@@ -222,3 +226,26 @@ ul {
 }
 
 /* END About Styles */
+
+/* Features Styles */
+
+.features {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.features__line {
+	margin-bottom: 15px;
+}
+.features__title {
+	font-size: 32px;
+	line-height: 42px;
+	letter-spacing: 0.1px;
+	font-weight: 600;
+	color: #7E4E24;
+	margin-bottom: 55px;
+}
+/* END Features Styles */
