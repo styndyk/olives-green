@@ -50,6 +50,7 @@ ul {
 	background: url("../image/header__bg.jpg") no-repeat center center;
 	background-size: cover;
 	height: 100vh;
+	margin-bottom: 100px;
 }
 
 .header__hint {
@@ -151,7 +152,9 @@ ul {
 	color: #697B03;
 }
 
-.header__main__text {
-}
 
 /* END Header Styles */
+
+/* About Styles */
+
+/* END About Styles */
