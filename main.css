@@ -249,3 +249,55 @@ ul {
 	margin-bottom: 55px;
 }
 /* END Features Styles */
+
+/* Quote Styles */
+.quote {
+	background: url("./image/quote__bg.jpg") no-repeat center center;
+	background-size: cover;
+	min-height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.quote__title {
+	font-weight: 300;
+	font-size: 52px;
+	line-height: 64px;
+	color: #7E4E24;
+	margin-bottom: 30px;
+}
+.quoute__subtitle {
+	color: #7E4E24;
+	margin-bottom: 60px;
+}
+.quote__link {
+	text-align: right;
+	color: #7E4E24;
+	margin-right: 10%;
+	position: relative;
+	padding: 2px;
+	overflow: visible; /*Потрібен для hover ефекта*/
+}
+
+.quote__link::after {
+	content: '';
+  position: absolute;
+  width: 9%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #7E4E24;
+  bottom: -5px;
+  left: 91%;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.quote__link:hover::after {
+	transform-origin: left;
+  transform: scaleX(1);
+}
+
+/* END Quote Styles */
