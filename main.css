@@ -77,6 +77,7 @@ ul {
 
 .header__navbar {
 	padding-top: 20px;
+	margin-bottom: 200px; /* Задав таке значення для позиціювання елемента .header__main */
 }
 
 .header__navbar .container {
@@ -133,5 +134,24 @@ ul {
 	opacity: 1;
 }
 
+.header__main {
+	color: #7E4E24;
+}
+
+.header__main__subtitle {
+	margin-bottom: 10px;
+}
+.header__main__title {
+	font-size: 44px;
+	line-height: 54px;
+	margin-bottom: 25px;
+}
+
+.header__main__title span {
+	color: #697B03;
+}
+
+.header__main__text {
+}
 
 /* END Header Styles */
